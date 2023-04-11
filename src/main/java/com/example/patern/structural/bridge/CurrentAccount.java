@@ -9,6 +9,7 @@ public class CurrentAccount implements Account{
     @Override
     public Account openAccount() {
         System.out.println("OPENED: CURRENT ACCOUNT ");
-        return new CurrentAccount();
+        //return new CurrentAccount();
+        return null;
     }
 }
